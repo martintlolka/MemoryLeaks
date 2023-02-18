@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using MemoryLeaks;
+﻿using MemoryLeaks;
 
 Console.WriteLine($"Memory usage {GC.GetTotalMemory(true) / 1024}kb");
 

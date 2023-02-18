@@ -18,6 +18,8 @@
         public object Pop()
         {
             var top = this.elements[--size];
+
+            // set popped item to null allows GC to collect popped object if its not in use.
             this.elements[size] = null;
             return top;
         }
