@@ -7,6 +7,7 @@
 
         public Stack(int initialCapacity)
         { 
+            // Check if array needs to be resized (Not part of the excecise)
             this.elements = new object[initialCapacity];
         }
 
